@@ -2,8 +2,34 @@
     width: 100%;
     margin-bottom: 30px;
     border: 2px solid orange;
+    border-collapse: collapse;
 }
 .entryTable th, .entryTable td{
     padding: 10px 20px;
     border: 1px solid red;
+}
+.entryTable th{
+    background-color: #ffeeee;
+    width: 10em;
+    text-align: left;
+}
+.entryTable caption{
+    margin-bottom:  10px;
+}
+.entryTable input[type="text"],
+.entryTable input[type="email"],
+.entryTable textarea{
+    width:100%;
+    box-sizing: border-box;
+    font-size: 1em;
+    border:1px solid #ccc;
+    padding: 10px;
+}
+
+.entryTable input[type="text"]:focus,
+.entryTable input[type="email"]:focus,
+.entryTable textarea:focus{
+    background-color: #ffffee;
+    border-left: 5px solid #ffa700;
+    outline: none;
 }
