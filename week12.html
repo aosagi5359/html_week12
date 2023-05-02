@@ -8,41 +8,45 @@
     <link rel="stylesheet" href="style12.css">
 </head>
 <body>
-    <table border="1" class="entryTable">
-        <caption>貓咪資料</caption>
-        <tr>
-            <th>姓名</th>
-            <td><input type ="text" name="cat-name" required  autofocus/></td>
-        </tr>
-        <tr>
-            <th>年齡</th>
-            <td><select name="age" required>
-                <option value="1">1-5歲</option>
-                <option value="2">6-10歲</option>
-            </td>
-        </tr>
-
-        <tr>
-            <th>性別</th>
-            <td>
-                <input type="radio" name="sex" value="male" checked>男性
-                <input type="radio" name="sex" value="female">女性
-            </td>
-        </tr>
-        <tr>
-            <th>食物</th>
-            <td>
-                <input type="radio" name="sex" value="male" checked>魚
-                <input type="radio" name="sex" value="male" checked>貓食
-            </td>
-        </tr>
-        <tr>
-            <th>照片</th>
-            <td>
-                <input type="file" name="cat-picture" id=" ">
-            </td>
-        </tr>
-    </table>
+    <fieldset>
+        <legend>貓咪資料</legend>
+        <table border="1" class="entryTable">
+            <caption>貓咪資料</caption>
+            <tr>
+                <th>姓名</th>
+                <td><input type ="text" name="cat-name" required  autofocus/></td>
+            </tr>
+            <tr>
+                <th>年齡</th>
+                <td><select name="age" required>
+                    <option value="1">1-5歲</option>
+                    <option value="2">6-10歲</option>
+                </td>
+            </tr>
+    
+            <tr>
+                <th>性別</th>
+                <td>
+                    <input type="radio" name="sex" value="male" checked>男性
+                    <input type="radio" name="sex" value="female">女性
+                </td>
+            </tr>
+            <tr>
+                <th>食物</th>
+                <td>
+                    <input type="radio" name="sex" value="male" checked>魚
+                    <input type="radio" name="sex" value="male" checked>貓食
+                </td>
+            </tr>
+            <tr>
+                <th>照片</th>
+                <td>
+                    <input type="file" name="cat-picture" id=" ">
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+    
 
     <table border="1" class="entryTable">
         <caption>主人資料</caption>
