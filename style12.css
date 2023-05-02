@@ -1,0 +1,9 @@
+.entryTable{
+    width: 100%;
+    margin-bottom: 30px;
+    border: 2px solid orange;
+}
+.entryTable th, .entryTable td{
+    padding: 10px 20px;
+    border: 1px solid red;
+}
