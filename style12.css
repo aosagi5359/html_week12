@@ -46,3 +46,21 @@ input, label, textarea, select {
 .entryBtns input {
     width: 100px;
 }
+
+.entryBtns input{
+    width: 200px;
+    margin: 0 10px;
+    font-size: 1em;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid orange;
+    background-color: #fff;
+}
+
+.entryBtns input[type="subit"]{
+    background-color:  #fadccc;
+}
+
+.entryBtns  input:hover{
+    opacity: 0.7;
+}
