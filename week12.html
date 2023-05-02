@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">
+        <caption>貓咪資料</caption>
+        <tr>
+            <th>姓名</th>
+            <td><input type ="text" name="cat-name" required  autofocus/></td>
+        </tr>
+        <tr>
+            <th>年齡</th>
+            <td><select name="age" required>
+                <option value="1">1-5歲</option>
+                <option value="2">6-10歲</option>
+            </td>
+        </tr>
+
+        <tr>
+            <th>性別</th>
+            <td>
+                <input type="radio" name="sex" value="male" checked>男性
+                <input type="radio" name="sex" value="female">女性
+            </td>
+        </tr>
+        <tr>
+            <th>食物</th>
+            <td>
+                <input type="radio" name="sex" value="male" checked>魚
+                <input type="radio" name="sex" value="male" checked>貓食
+            </td>
+        </tr>
+        <tr>
+            <th>照片</th>
+            <td>
+                <input type="file" name="cat-picture" id=" ">
+            </td>
+        </tr>
+    </table>
+
+    <table border="1">
+        <caption>主人資料</caption>
+        <tr>
+            <th>姓名</th>
+            <td><input type ="text" name="username" placeholder="請輸入姓名"></td>
+        </tr>
+        <tr>
+            <th>E-mail</th>
+            <td><input type="email" name="email" id="" autocomplete="off"></td>
+        </tr>
+        <th>留言</th>
+        <td>
+            <textarea name="comment" id="" cols="40" rows="4"></textarea>
+        </td>
+        </tr>
+    </table>
+    <input type="reset" value="清除資料">
+    <input type="submit" value="送出">
+</body>
+</html>
